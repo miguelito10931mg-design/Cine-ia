@@ -1,6 +1,28 @@
 {
-  "name":"cinematic-ai-studio","version":"1.0.0","private":true,"type":"module",
-  "scripts":{"dev":"concurrently -k \"vite --host 0.0.0.0\" \"tsx server.ts\"","build":"vite build","start":"tsx server.ts","render:bundle":"remotion bundle remotion__index.tsx"},
-  "dependencies":{"@remotion/cli":"^4.0.300","@remotion/player":"^4.0.300","@remotion/renderer":"^4.0.300","concurrently":"^9.1.2","express":"^4.21.2","lucide-react":"^0.468.0","multer":"^1.4.5-lts.1","react":"^18.3.1","react-dom":"^18.3.1","remotion":"^4.0.300"},
-  "devDependencies":{"@types/express":"^5.0.0","@types/multer":"^1.4.12","@types/node":"^22.10.2","@types/react":"^18.3.12","@types/react-dom":"^18.3.1","tsx":"^4.19.2","typescript":"^5.7.2","vite":"^6.0.5"}
+  "name": "cinematic-ai-studio-native",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo/AppEntry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "expo-document-picker": "~14.0.7",
+    "expo-file-system": "~19.0.17",
+    "expo-sharing": "~14.0.0",
+    "expo-status-bar": "~3.0.9",
+    "expo-video": "~3.0.11",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  },
+  "engines": {
+    "node": ">=20.19.4"
+  }
 }

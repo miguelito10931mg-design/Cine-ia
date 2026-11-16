@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Cinematic AI Studio",
+    "slug": "cinematic-ai-studio-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#090b10"
+    },
+    "android": {
+      "package": "com.cinematicai.studio",
+      "adaptiveIcon": {
+        "backgroundColor": "#090b10"
+      }
+    }
+  }
+}
