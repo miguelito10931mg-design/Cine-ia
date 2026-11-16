@@ -1,14 +1,12 @@
-CINEMATIC AI STUDIO — ARCHIVOS EN RAÍZ, SIN SUBCARPETAS
-Todos los archivos de aplicación están en la raíz del ZIP.
-main.tsx: interfaz React
-style.css: estilos de la interfaz
-remotion__index.tsx: punto de entrada Remotion
-remotion__Video.tsx: composición de video Remotion
-server.ts: servidor y endpoint de render MP4
-index.html: página de inicio
-package.json: dependencias y scripts
-vite.config.ts: configuración Vite
- tsconfig.json: configuración TypeScript
-README.md: instrucciones
+CINEMATIC AI STUDIO — ARCHIVOS EN RAÍZ
 
-El servidor crea automáticamente public/uploads y public/exports cuando corre.
+Todos los archivos están en esta carpeta, sin subcarpetas.
+
+main.tsx: interfaz/editor principal (original conservado).
+style.css: estilos con adaptación de interfaz móvil.
+remotion__Video.tsx: componente de video Remotion.
+remotion__index.tsx: entrada para render de Remotion.
+server.ts: servidor de render/API.
+index.html, package.json, tsconfig.json, vite.config.ts, README.md: configuración y documentación.
+
+Importaciones ajustadas para la estructura plana.
